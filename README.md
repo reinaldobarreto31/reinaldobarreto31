@@ -142,7 +142,7 @@ end
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-CC0000?style=for-the-badge&logoColor=white)](https://senior-profile-suite.replit.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-CC0000?style=for-the-badge&logoColor=white)](https://reinaldobarreto31.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/reinaldobarreto31)
 
 ![Profile views](https://komarev.com/ghpvc/?username=reinaldobarreto31&color=CC0000&style=flat-square&label=Profile+Views)
