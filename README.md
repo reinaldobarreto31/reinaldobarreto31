@@ -96,6 +96,19 @@ end
 
 </div>
 
+
+<!-- Snake animation — generated from output branch -->
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake.svg" />
+  <img alt="🐍 Snake eating contributions"
+    src="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake-dark.svg"
+    width="100%" />
+</picture>
+</div>
 <!-- Contribution Activity Graph — works without GitHub Actions -->
 <div align="center">
 
