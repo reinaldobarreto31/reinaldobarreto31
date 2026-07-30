@@ -77,6 +77,7 @@ public class Developer {
 
 [![clientehub](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=clientehub&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=6DB33F&bg_color=0d1117)](https://github.com/reinaldobarreto31/clientehub)
 [![stockwise-go](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=stockwise-go&theme=dark&title_color=00ADD8&icon_color=00ADD8&border_color=00ADD8&bg_color=0d1117)](https://github.com/reinaldobarreto31/stockwise-go)
+[![spring-boot-swagger-crud](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=spring-boot-swagger-crud&theme=dark&title_color=ED8B00&icon_color=ED8B00&border_color=ED8B00&bg_color=0d1117)](https://github.com/reinaldobarreto31/spring-boot-swagger-crud)
 
 </div>
 
