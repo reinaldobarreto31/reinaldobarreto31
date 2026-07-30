@@ -1,63 +1,69 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=CC0000&center=true&vCenter=true&width=750&lines=Hi+%F0%9F%91%8B+I'm+Reinaldo+Barreto;Ruby+on+Rails+Engineer+%F0%9F%9A%82;REST+APIs+%C2%B7+PostgreSQL+%C2%B7+Hotwire;DevOps+%7C+SRE+%7C+Backend+Dev;Linux+Ubuntu+is+my+home+%F0%9F%90%A7;Convention+over+Configuration+%F0%9F%94%B4)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6DB33F&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B+I'm+Reinaldo+Barreto;Java+%26+Spring+Boot+Engineer+%E2%98%95;Kotlin+%C2%B7+Go+%C2%B7+React+%C2%B7+Vue.js;Microsservi%C3%A7os+%7C+OAuth2+%7C+Keycloak;Linux+Ubuntu+is+my+home+%F0%9F%90%A7;Clean+Code+%7C+CI%2FCD+%7C+Docker)](https://git.io/typing-svg)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
 
-## 🚂 About Me
+## ☕ About Me
 
-```ruby
-# developer.rb — reinaldobarreto31
+```java
+// Developer.java — reinaldobarreto31
 
-class Developer
-  def initialize
-    @name      = "Reinaldo Barreto da Silva"
-    @location  = "Salvador, Bahia — Brazil 🇧🇷"
-    @focus     = ["Ruby on Rails", "REST APIs", "PostgreSQL", "DevOps"]
-    @learning  = ["Rails 7", "Hotwire", "Turbo", "RSpec", "Sidekiq"]
-    @past      = ["Java", "Spring Boot", "Go"]
-    @os        = "Linux Ubuntu 🐧  (+Windows @ PRODEB)"
-    @hireable  = true
-  end
+public class Developer {
+    String  name      = "Reinaldo Barreto da Silva";
+    String  location  = "Navegantes, Santa Catarina — Brazil 🇧🇷";
+    String[] focus    = {"Java 17/21", "Spring Boot 3", "Kotlin", "Go", "React", "Vue.js"};
+    String[] devops   = {"Docker", "GitHub Actions", "Jenkins", "SonarQube", "Linux Ubuntu"};
+    String[] auth     = {"OAuth2", "Keycloak", "Spring Security", "JWT"};
+    String[] db       = {"PostgreSQL", "MySQL", "Redis"};
+    boolean  hireable = true;
 
-  def current_focus = "🔴 Becoming a Ruby on Rails specialist — convention over configuration"
-  def fun_fact      = "Ops engineer who learned to love MVC and fell for the Rails way 🚂"
-end
+    String currentFocus() {
+        return "☕ Building scalable APIs & microservices for the public sector";
+    }
+}
 ```
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## 🔴 Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-### 🚂 Ruby on Rails — Primary Stack
+### ☕ Backend — Primary Stack
 
-[![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories&q=rails)
-[![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories&q=ruby)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](#)
-[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
-[![Hotwire](https://img.shields.io/badge/Hotwire_Turbo-CC0000?style=for-the-badge&logo=hotwire&logoColor=white)](#)
-[![RSpec](https://img.shields.io/badge/RSpec_TDD-CC0000?style=for-the-badge&logo=ruby&logoColor=white)](#)
-[![Sidekiq](https://img.shields.io/badge/Sidekiq-CC0000?style=for-the-badge&logo=ruby&logoColor=white)](#)
+[![Java](https://img.shields.io/badge/Java_17%2F21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories&q=java)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories&q=spring)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories)
+[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/reinaldobarreto31?tab=repositories&q=go)
+[![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)](#)
+[![OAuth2](https://img.shields.io/badge/OAuth2%2FKeycloak-EF4B4B?style=for-the-badge&logo=keycloak&logoColor=white)](#)
 
 ### 🌐 Frontend
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
-[![Stimulus](https://img.shields.io/badge/Stimulus.js-77E8B9?style=for-the-badge&logo=stimulus&logoColor=black)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 
-### ⚙️ DevOps & Infrastructure
-[![Ubuntu](https://img.shields.io/badge/Linux_Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](#)
+### 🗄️ Data & Infrastructure
+
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](#)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](#)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](#)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](#)
+[![Ubuntu](https://img.shields.io/badge/Linux_Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](#)
 
-### 📦 Background (Java era)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](#)
+### ⚙️ DevOps & Quality
+
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](#)
+[![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)](#)
+[![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)](#)
+[![JUnit](https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white)](#)
 
 </div>
 
@@ -65,15 +71,12 @@ end
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## 🛤️ Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
-[![expense-tracker-web](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=expense-tracker-web&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&bg_color=0d1117)](https://github.com/reinaldobarreto31/expense-tracker-web)
-[![rails-tasks-api](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=rails-tasks-api&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&bg_color=0d1117)](https://github.com/reinaldobarreto31/rails-tasks-api)
-
-[![rails-auth-api](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=rails-auth-api&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&bg_color=0d1117)](https://github.com/reinaldobarreto31/rails-auth-api)
-[![rails-link-shortener](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=rails-link-shortener&theme=dark&title_color=CC0000&icon_color=CC0000&border_color=CC0000&bg_color=0d1117)](https://github.com/reinaldobarreto31/rails-link-shortener)
+[![clientehub](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=clientehub&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=6DB33F&bg_color=0d1117)](https://github.com/reinaldobarreto31/clientehub)
+[![stockwise-go](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=stockwise-go&theme=dark&title_color=00ADD8&icon_color=00ADD8&border_color=00ADD8&bg_color=0d1117)](https://github.com/reinaldobarreto31/stockwise-go)
 
 </div>
 
@@ -85,19 +88,11 @@ end
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=reinaldobarreto31&show_icons=true&theme=dark&title_color=CC0000&icon_color=CC0000&text_color=ffffff&border_color=CC0000&bg_color=0d1117&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reinaldobarreto31&layout=compact&theme=dark&title_color=CC0000&text_color=ffffff&border_color=CC0000&bg_color=0d1117&langs_count=8"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=reinaldobarreto31&show_icons=true&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=333&bg_color=0d1117&hide_border=false)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reinaldobarreto31&layout=compact&theme=dark&title_color=6DB33F&border_color=333&bg_color=0d1117)
 
 </div>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=reinaldobarreto31&theme=dark&border=CC0000&ring=CC0000&fire=FF6B6B&currStreakLabel=CC0000&sideLabels=ffffff&dates=888888&background=0D1117&stroke=333333)](https://git.io/streak-stats)
-
-</div>
-
-
-<!-- Snake animation — generated from output branch -->
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -109,10 +104,10 @@ end
     width="100%" />
 </picture>
 </div>
-<!-- Contribution Activity Graph — works without GitHub Actions -->
+
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=reinaldobarreto31&bg_color=0d1117&color=CC0000&line=CC0000&point=ffffff&area=true&area_color=CC0000&title_color=CC0000&hide_border=false&border=333333)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=reinaldobarreto31&bg_color=0d1117&color=6DB33F&line=6DB33F&point=ffffff&area=true&area_color=6DB33F&title_color=6DB33F&hide_border=false&border=333333)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -124,9 +119,9 @@ end
 
 | Company | Period | Stack |
 |---------|--------|-------|
-| 🏛️ **PRODEB** | Mar/2024 – Set/2024 | Java · Linux Ubuntu · Windows |
-| 🔬 **LAMPP** | Mar/2022 – Mai/2022 | Ruby on Rails · Linux Ubuntu |
-| ⚙️ **EDZA Engenharia** | Nov/2019 – Mar/2022 | Linux Ubuntu · Networks & Support |
+| 🏛️ **PRODEB** | Mar/2024 – Set/2024 | Java · Spring Boot · Vue.js · PostgreSQL · Linux Ubuntu |
+| 🔬 **LAMPP IT Solutions** | Mar/2022 – Mai/2022 | Java · Spring Boot · Spring Security · OAuth2 · Angular · React |
+| ⚙️ **EDZA Engenharia** | Nov/2019 – Mar/2022 | Java EE · Spring Boot · Vue.js · Angular · MySQL · Linux |
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -136,15 +131,16 @@ end
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🚂  Track: Java / Spring Boot  →  Ruby on Rails
-  🔴  Goal: Senior Rails Engineer
-  🐧  Environment: Linux Ubuntu always
+  ☕  Stack: Java · Spring Boot · Kotlin · Go
+  🌐  Frontend: React · Vue.js · TypeScript
+  📍  Location: Navegantes, SC — Brazil
+  🔍  Open to: Remote positions in Brazil & abroad
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-CC0000?style=for-the-badge&logoColor=white)](https://reinaldobarreto31.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/reinaldobarreto31)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-6DB33F?style=for-the-badge&logoColor=white)](https://reinaldobarreto31.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/reinaldo-barreto-da-silva-2a4ba2116)
 
-![Profile views](https://komarev.com/ghpvc/?username=reinaldobarreto31&color=CC0000&style=flat-square&label=Profile+Views)
+![Profile views](https://komarev.com/ghpvc/?username=reinaldobarreto31&color=6DB33F&style=flat-square&label=Profile+Views)
 
 </div>
