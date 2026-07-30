@@ -1,99 +1,85 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=6DB33F&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B+I'm+Reinaldo+Barreto;Java+%26+Spring+Boot+Engineer+%E2%98%95;Kotlin+%C2%B7+Go+%C2%B7+React+%C2%B7+Vue.js;Microsservi%C3%A7os+%7C+OAuth2+%7C+Keycloak;%F0%9F%93%8D+Navegantes%2C+Santa+Catarina+%E2%80%94+Brazil;Open+to+Remote+%7C+Hireable+%F0%9F%9F%A2)](https://git.io/typing-svg)
+![banner](https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/main/banner.png)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=CC0000&center=true&vCenter=true&width=820&lines=Hi+%F0%9F%91%8B+I'm+Reinaldo+Barreto;Ruby+on+Rails+Engineer+%F0%9F%9A%82;REST+APIs+%C2%B7+PostgreSQL+%C2%B7+Rswag%2FSwagger;DevOps+%7C+SRE+%7C+TDD+with+RSpec;%F0%9F%93%8D+Navegantes%2C+Santa+Catarina+%E2%80%94+Brazil;Convention+over+Configuration+%F0%9F%94%B4)](https://git.io/typing-svg)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
 
-## About Me
+## 🚂 About Me
 
-```
-+----------------------------------------------------------+
-|  Developer.kt  x  |  Developer.java  |  experience.yml  |
-+----------------------------------------------------------+
-```
+```ruby
+# developer.rb  --  reinaldobarreto31
 
-```kotlin
-// Developer.kt  --  reinaldobarreto31
+class Developer
+  def initialize
+    @name      = "Reinaldo Barreto da Silva"
+    @location  = "Navegantes, Santa Catarina -- Brazil"
+    @focus     = ["Ruby on Rails 7", "REST APIs", "PostgreSQL", "Rswag/OpenAPI"]
+    @frontend  = ["React", "Tailwind CSS", "TypeScript"]
+    @testing   = ["RSpec", "FactoryBot", "Shoulda Matchers"]
+    @devops    = ["Docker", "GitHub Actions", "Heroku", "Linux Ubuntu"]
+    @hireable  = true
+  end
 
-package dev.reinaldobarreto
+  def current_focus
+    "Building RESTful APIs with Rails 7 + Rswag and shipping to production"
+  end
 
-data class Developer(
-    val name        : String       = "Reinaldo Barreto da Silva",
-    val location    : String       = "Navegantes, Santa Catarina - Brazil",
-    val focus       : List<String> = listOf("Java 17/21", "Spring Boot 3", "Kotlin", "Go"),
-    val frontend    : List<String> = listOf("React", "Vue.js", "TypeScript"),
-    val devops      : List<String> = listOf("Docker", "GitHub Actions", "Jenkins", "SonarQube"),
-    val auth        : List<String> = listOf("OAuth2", "Keycloak", "Spring Security", "JWT"),
-    val db          : List<String> = listOf("PostgreSQL", "MySQL", "Redis"),
-    val hireable    : Boolean      = true
-) {
-    fun currentFocus(): String =
-        "Building scalable microservices for the public sector"
-
-    fun contact(): Map<String, String> = mapOf(
-        "portfolio" to "https://reinaldobarreto31.github.io",
-        "linkedin"  to "linkedin.com/in/reinaldo-barreto-da-silva-2a4ba2116"
-    )
-}
-```
-
-```java
-// Developer.java  --  reinaldobarreto31
-
-public class Developer {
-    String   name     = "Reinaldo Barreto da Silva";
-    String   location = "Navegantes, Santa Catarina - Brazil";
-    String[] focus    = { "Java 17/21", "Spring Boot 3", "Kotlin", "Go" };
-    String[] devops   = { "Docker", "GitHub Actions", "Jenkins", "SonarQube" };
-    String[] auth     = { "OAuth2", "Keycloak", "Spring Security", "JWT" };
-    boolean  hireable = true;
-
-    String currentFocus() {
-        return "Building scalable APIs & microservices for the public sector";
+  def contact
+    {
+      portfolio: "https://reinaldobarreto31.github.io",
+      linkedin:  "linkedin.com/in/reinaldo-barreto-da-silva-2a4ba2116"
     }
-}
+  end
+end
+```
+
+```
+==|====|====|====|====|====|====|====|====|====|====|====|==
+  |    |    |    |    |    |    |    |    |    |    |    |
+--+----+----+----+----+----+----+----+----+----+----+----+--
+  |    |    |    |    |    |    |    |    |    |    |    |
+==|====|====|====|====|====|====|====|====|====|====|====|==
 ```
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## Tech Stack
+## 🔴 Tech Stack
 
 <div align="center">
 
-### Backend
+### 🚂 Ruby on Rails — Primary Stack
 
-![Java](https://img.shields.io/badge/Java_17%2F21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth2%2FKeycloak-EF4B4B?style=for-the-badge&logo=keycloak&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails_7-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Sidekiq](https://img.shields.io/badge/Sidekiq-CC0000?style=for-the-badge&logo=ruby&logoColor=white)
 
-### Frontend
+### 📖 API Documentation
+
+![Rswag](https://img.shields.io/badge/Rswag-CC0000?style=for-the-badge&logo=swagger&logoColor=white)
+![OpenAPI 3](https://img.shields.io/badge/OpenAPI_3-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
+![Swagger UI](https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![RSpec](https://img.shields.io/badge/RSpec_TDD-CC0000?style=for-the-badge&logo=ruby&logoColor=white)
+
+### 🌐 Frontend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Hotwire](https://img.shields.io/badge/Hotwire_Turbo-CC0000?style=for-the-badge&logo=hotwire&logoColor=white)
 
-### Data & Infra
+### ⚙️ DevOps & Infrastructure
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux Ubuntu](https://img.shields.io/badge/Linux_Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-### DevOps & Quality
-
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
-![JUnit 5](https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Linux_Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 </div>
 
@@ -101,19 +87,47 @@ public class Developer {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <h3>clientehub</h3>
-      <p>CRUD completo de clientes<br/>Spring Boot 3 REST API + React 18 + PostgreSQL</p>
+      <h3>🚂 rails-swagger-crud</h3>
+      <p>RESTful CRUD API — Rails 7 + Rswag/OpenAPI + RSpec<br/>Documentacao automatica gerada dos testes de integracao</p>
+      <p>
+        <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat-square&logo=ruby-on-rails&logoColor=white" />
+        <img src="https://img.shields.io/badge/Rswag-CC0000?style=flat-square&logo=swagger&logoColor=white" />
+        <img src="https://img.shields.io/badge/RSpec-CC342D?style=flat-square&logo=ruby&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      </p>
+      <a href="https://github.com/reinaldobarreto31/rails-swagger-crud">
+        <img src="https://img.shields.io/badge/View_Repo-CC0000?style=for-the-badge&logo=github&logoColor=white" />
+      </a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h3>📄 PDF Compressor</h3>
+      <p>Compressor de PDF online — React + Tailwind CSS<br/>100% no browser, sem servidor, sem upload de dados</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+      </p>
+      <a href="https://senior-profile-suite.replit.app/pdf-compressor/">
+        <img src="https://img.shields.io/badge/Live_Demo-CC0000?style=for-the-badge&logo=googlechrome&logoColor=white" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h3>☕ clientehub</h3>
+      <p>CRUD completo de clientes — Spring Boot 3 REST API + React 18<br/>Background em Java / backend enterprise</p>
       <p>
         <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
         <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
       </p>
       <a href="https://github.com/reinaldobarreto31/clientehub">
@@ -121,37 +135,7 @@ public class Developer {
       </a>
     </td>
     <td width="50%" valign="top" align="center">
-      <h3>stockwise-go</h3>
-      <p>Sistema de controle de estoque<br/>Go REST API + JWT Auth + PostgreSQL + Docker</p>
-      <p>
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-        <img src="https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-      </p>
-      <a href="https://github.com/reinaldobarreto31/stockwise-go">
-        <img src="https://img.shields.io/badge/View_Repo-00ADD8?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h3>spring-boot-swagger-crud</h3>
-      <p>RESTful CRUD API com OpenAPI 3 / Swagger UI<br/>Spring Boot 3 + Lombok + Docker Compose</p>
-      <p>
-        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenAPI_3-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" />
-        <img src="https://img.shields.io/badge/Swagger_UI-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      </p>
-      <a href="https://github.com/reinaldobarreto31/spring-boot-swagger-crud">
-        <img src="https://img.shields.io/badge/View_Repo-ED8B00?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h3>kotlin-tasks-android</h3>
+      <h3>📱 kotlin-tasks-android</h3>
       <p>App Android de gestao de tarefas<br/>Kotlin + MVVM + Room Database + Navigation</p>
       <p>
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
@@ -171,11 +155,11 @@ public class Developer {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=reinaldobarreto31&theme=dark&background=0d1117&border=333&stroke=6DB33F&ring=6DB33F&fire=ED8B00&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=6DB33F&sideLabels=6DB33F&dates=888)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=reinaldobarreto31&theme=dark&background=0d1117&border=333&stroke=CC0000&ring=CC0000&fire=FF6B6B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=CC0000&sideLabels=CC0000&dates=888)](https://git.io/streak-stats)
 
 </div>
 
@@ -193,7 +177,7 @@ public class Developer {
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=reinaldobarreto31&bg_color=0d1117&color=6DB33F&line=6DB33F&point=ffffff&area=true&area_color=6DB33F&title_color=6DB33F&hide_border=false&border=333333)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=reinaldobarreto31&bg_color=0d1117&color=CC0000&line=CC0000&point=ffffff&area=true&area_color=CC0000&title_color=CC0000&hide_border=false&border=333333)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -201,25 +185,31 @@ public class Developer {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
-## Work Experience
+## 🏢 Work Experience
 
-```yaml
-# experience.yml  --  reinaldobarreto31
+```ruby
+# experience.rb  --  reinaldobarreto31
 
-- company: PRODEB
-  period:  "Mar/2024 - Set/2024"
-  stack:   [ Java, "Spring Boot", "Vue.js", PostgreSQL, "Linux Ubuntu" ]
-  sector:  Governo do Estado da Bahia (sistemas publicos estaduais)
-
-- company: LAMPP IT Solutions
-  period:  "Mar/2022 - Mai/2022"
-  stack:   [ Java, "Spring Boot", "Spring Security", OAuth2, Angular, React ]
-  sector:  SSP-BA / PM-BA (Seguranca Publica)
-
-- company: EDZA Engenharia
-  period:  "Nov/2019 - Mar/2022"
-  stack:   [ "Java EE", "Spring Boot", "Vue.js", Angular, MySQL, Linux ]
-  sector:  ERP Municipal (Ilheus, Juazeiro, Candeias, Porto Seguro, Lauro de Freitas)
+EXPERIENCE = [
+  {
+    company: "PRODEB",
+    period:  "Mar/2024 - Set/2024",
+    stack:   %w[Java Spring-Boot Vue.js PostgreSQL Linux],
+    sector:  "Governo do Estado da Bahia (sistemas publicos estaduais)"
+  },
+  {
+    company: "LAMPP IT Solutions",
+    period:  "Mar/2022 - Mai/2022",
+    stack:   %w[Java Spring-Boot Spring-Security OAuth2 Angular React],
+    sector:  "SSP-BA / PM-BA (Seguranca Publica)"
+  },
+  {
+    company: "EDZA Engenharia",
+    period:  "Nov/2019 - Mar/2022",
+    stack:   %w[Java-EE Spring-Boot Vue.js Angular MySQL Linux],
+    sector:  "ERP Municipal (Ilheus Juazeiro Candeias Porto-Seguro Lauro-de-Freitas)"
+  }
+].freeze
 ```
 
 <div align="center">
@@ -229,19 +219,19 @@ public class Developer {
 <div align="center">
 
 ```
-+-------------------------------------------------------------+
-|                                                             |
-|   Stack    : Java  Spring Boot  Kotlin  Go                 |
-|   Frontend : React  Vue.js  TypeScript                     |
-|   Location : Navegantes, SC  --  Brazil                    |
-|   Status   : Open to remote  |  Hireable                   |
-|                                                             |
-+-------------------------------------------------------------+
+==|====|====|====|====|====|====|====|====|====|====|====|==
+  |                                                    |
+  |   Stack    : Ruby on Rails 7  /  React  /  Docker |
+  |   Docs     : Rswag  /  OpenAPI 3  /  Swagger UI   |
+  |   Location : Navegantes, SC  --  Brazil            |
+  |   Status   : Open to remote  |  Hireable           |
+  |                                                    |
+==|====|====|====|====|====|====|====|====|====|====|====|==
 ```
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6DB33F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://reinaldobarreto31.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-CC0000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://reinaldobarreto31.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/reinaldo-barreto-da-silva-2a4ba2116)
 
-![Profile views](https://komarev.com/ghpvc/?username=reinaldobarreto31&color=6DB33F&style=flat-square&label=Profile+Views)
+![Profile views](https://komarev.com/ghpvc/?username=reinaldobarreto31&color=CC0000&style=flat-square&label=Profile+Views)
 
 </div>
