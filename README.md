@@ -75,9 +75,15 @@ public class Developer {
 
 <div align="center">
 
-[![clientehub](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=clientehub&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=6DB33F&bg_color=0d1117)](https://github.com/reinaldobarreto31/clientehub)
-[![stockwise-go](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=stockwise-go&theme=dark&title_color=00ADD8&icon_color=00ADD8&border_color=00ADD8&bg_color=0d1117)](https://github.com/reinaldobarreto31/stockwise-go)
-[![spring-boot-swagger-crud](https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=spring-boot-swagger-crud&theme=dark&title_color=ED8B00&icon_color=ED8B00&border_color=ED8B00&bg_color=0d1117)](https://github.com/reinaldobarreto31/spring-boot-swagger-crud)
+<a href="https://github.com/reinaldobarreto31/clientehub">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=clientehub&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=6DB33F&bg_color=0d1117&cache_seconds=86400" alt="clientehub" />
+</a>
+<a href="https://github.com/reinaldobarreto31/stockwise-go">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=stockwise-go&theme=dark&title_color=00ADD8&icon_color=00ADD8&border_color=00ADD8&bg_color=0d1117&cache_seconds=86400" alt="stockwise-go" />
+</a>
+<a href="https://github.com/reinaldobarreto31/spring-boot-swagger-crud">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=reinaldobarreto31&repo=spring-boot-swagger-crud&theme=dark&title_color=ED8B00&icon_color=ED8B00&border_color=ED8B00&bg_color=0d1117&cache_seconds=86400" alt="spring-boot-swagger-crud" />
+</a>
 
 </div>
 
@@ -89,19 +95,23 @@ public class Developer {
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=reinaldobarreto31&show_icons=true&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=333&bg_color=0d1117&hide_border=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reinaldobarreto31&layout=compact&theme=dark&title_color=6DB33F&border_color=333&bg_color=0d1117)
+<a href="https://github.com/reinaldobarreto31">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=reinaldobarreto31&show_icons=true&theme=dark&title_color=6DB33F&icon_color=6DB33F&border_color=333&bg_color=0d1117&cache_seconds=86400&include_all_commits=true" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/reinaldobarreto31">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reinaldobarreto31&layout=compact&theme=dark&title_color=6DB33F&border_color=333&bg_color=0d1117&cache_seconds=86400&langs_count=8" alt="Top Languages" />
+</a>
 
 </div>
 
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake-dark.svg" />
+    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake.svg" />
-  <img alt="🐍 Snake eating contributions"
-    src="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating contributions"
+    src="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/output/github-contribution-grid-snake-dark.svg"
     width="100%" />
 </picture>
 </div>
