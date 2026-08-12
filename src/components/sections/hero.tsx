@@ -47,7 +47,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="hero" className="relative min-h-[100dvh] flex items-center justify-center pt-20 pb-16 md:pb-0 overflow-hidden bg-[#e0e5ec]">
+    <section id="hero" className="relative min-h-[100dvh] flex items-center justify-center pt-20 pb-16 md:pb-0 overflow-hidden bg-background text-foreground transition-colors duration-300">
       {/* Neumorphic Tech Canvas Background */}
       <div className="absolute inset-0 z-0 pointer-events-none hero-aura" />
       <div className="absolute inset-0 z-0 pointer-events-none neo-grid opacity-40" />
@@ -121,19 +121,10 @@ export function HeroSection() {
               disabled={exportingImg}
               whileHover={{ scale: exportingImg ? 1 : 1.03 }}
               whileTap={{ scale: exportingImg ? 1 : 0.97 }}
-              className="border border-white/80 bg-[#e0e5ec] shadow-[4px_4px_10px_#b8c1ec,-4px_-4px_10px_#ffffff] text-[#7c3aed] px-6 py-3 rounded-lg font-semibold text-sm hover:bg-[#7c3aed]/10 transition-all inline-flex items-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
+              className="border border-white/80 bg-[#e0e5ec] dark:bg-card dark:border-border shadow-[4px_4px_10px_#b8c1ec,-4px_-4px_10px_#ffffff] dark:shadow-none text-[#7c3aed] px-6 py-3 rounded-lg font-semibold text-sm hover:bg-[#7c3aed]/10 transition-all inline-flex items-center gap-2 disabled:opacity-60 disabled:cursor-not-allowed"
             >
               <FileImage size={15} className={exportingImg ? "animate-pulse" : ""} />
               {exportingImg ? "Gerando imagem..." : "Currículo Imagem PNG"}
-            </motion.button>
-            <motion.button
-              onClick={() => setReadmeOpen(true)}
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-              className="border border-white/80 bg-[#e0e5ec] shadow-[4px_4px_10px_#b8c1ec,-4px_-4px_10px_#ffffff] text-[#007396] px-6 py-3 rounded-lg font-semibold text-sm hover:bg-[#007396]/10 transition-all inline-flex items-center gap-2"
-            >
-              <Code2 size={15} />
-              README GitHub Perfil
             </motion.button>
           </div>
 

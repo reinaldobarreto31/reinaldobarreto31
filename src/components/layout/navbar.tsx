@@ -1,16 +1,34 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { SiSpringboot } from "react-icons/si";
-import { Home, User, Briefcase, Code2, Activity, Mail } from "lucide-react";
+import { Home, User, Briefcase, Code2, Activity, Mail, Sun, Moon } from "lucide-react";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isDark, setIsDark] = useState(() => {
+    if (typeof window !== "undefined") {
+      return document.documentElement.classList.contains("dark");
+    }
+    return true;
+  });
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const toggleTheme = () => {
+    const nextDark = !isDark;
+    setIsDark(nextDark);
+    if (nextDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  };
 
   const navLinks = [
     { name: "Início",      href: "#hero",       icon: Home },
@@ -47,19 +65,36 @@ export function Navbar() {
           </div>
         </a>
 
-        {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="hover:text-primary transition-colors text-xs font-medium tracking-wide"
-              data-testid={`link-nav-${link.name.toLowerCase()}`}
-            >
-              {link.name}
-            </a>
-          ))}
-        </nav>
+        {/* Desktop nav + Theme Switcher */}
+        <div className="flex items-center gap-4">
+          <nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                className="hover:text-primary transition-colors text-xs font-medium tracking-wide"
+                data-testid={`link-nav-${link.name.toLowerCase()}`}
+              >
+                {link.name}
+              </a>
+            ))}
+          </nav>
+
+          {/* Theme Toggle Button */}
+          <button
+            onClick={toggleTheme}
+            aria-label={isDark ? "Mudar para modo claro" : "Mudar para modo escuro"}
+            title={isDark ? "Mudar para modo claro" : "Mudar para modo escuro"}
+            className="flex items-center justify-center w-9 h-9 rounded-lg bg-card/80 border border-border text-foreground hover:text-primary transition-all shadow-sm hover:scale-105 active:scale-95"
+            data-testid="button-theme-toggle"
+          >
+            {isDark ? (
+              <Sun size={17} className="text-amber-400 animate-spin-slow" />
+            ) : (
+              <Moon size={17} className="text-indigo-600" />
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Mobile bottom nav */}
