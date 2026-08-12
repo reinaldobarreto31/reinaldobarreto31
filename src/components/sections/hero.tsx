@@ -6,6 +6,7 @@ import { FaJava as SiJava } from "react-icons/fa6";
 import { Mail, ArrowDownRight, FileImage, FileDown, Code2 } from "lucide-react";
 import { ResumeExporter, type ResumeExporterHandle } from "./resume-exporter";
 import { GithubReadmeModal } from "./github-readme-modal";
+import { TechStackAnimation } from "../hero/tech-stack-animation";
 import { toast } from "sonner";
 
 const STACK = [
@@ -60,7 +61,7 @@ export function HeroSection() {
         >
           <div className="neo-badge inline-flex items-center gap-3 px-4 py-2 rounded-full w-fit text-sm font-mono tracking-tight bg-[#e0e5ec] border border-white/80 shadow-[4px_4px_10px_#b8c1ec,-4px_-4px_10px_#ffffff]">
             <span className="text-[#2f855a] shrink-0 inline-flex items-center"><SiSpringboot size={18} /></span>
-            <span className="neo-shine font-bold">Java · Spring Boot · Quarkus · Kotlin · Flutter</span>
+            <span className="neo-shine font-bold">Java · Spring Boot · Quarkus · Kotlin · Go · QA Automation</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter leading-tight text-foreground" data-testid="text-hero-name">
@@ -69,7 +70,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed" data-testid="text-hero-description">
-            Desenvolvedor <span className="text-[#2f855a] font-bold font-mono">Java (do Java 8+ ao 17/21, Spring Boot 3 &amp; Quarkus)</span> — com vivência em modernização de legados (<span className="text-[#0284c7] font-mono">JSP, Struts, Java EE</span>), microsserviços e APIs reativas. Em segundo pilar <span className="text-[#7c3aed] font-bold font-mono">Kotlin (Android)</span> e em terceiro <span className="text-[#0284c7] font-bold font-mono">Flutter / Dart</span>.
+            Desenvolvedor &amp; Engenheiro Backend <span className="text-[#2f855a] font-bold font-mono">Java (Java 8+ a 21, Spring Boot 3 &amp; Quarkus)</span> — especializado em microsserviços, modernização de legados, <span className="text-[#00add8] font-bold font-mono">Go (Golang)</span> e <span className="text-[#7c3aed] font-bold font-mono">Kotlin (Android &amp; Web)</span> com foco em qualidade, arquitetura e suítes de automação QA.
           </p>
 
           <div className="flex flex-wrap gap-2">
@@ -211,9 +212,17 @@ export function HeroSection() {
               <motion.div
                 whileHover={{ y: -4, scale: 1.08 }}
                 className="tech-float-badge text-[#7c3aed] !w-12 !h-12 sm:!w-14 sm:!h-14 rounded-2xl"
-                title="Kotlin Android"
+                title="Kotlin (Android & Web)"
               >
                 <SiKotlin size={22} />
+              </motion.div>
+
+              <motion.div
+                whileHover={{ y: -4, scale: 1.08 }}
+                className="tech-float-badge text-[#00add8] !w-12 !h-12 sm:!w-14 sm:!h-14 rounded-2xl"
+                title="Go / Golang"
+              >
+                <SiGo size={22} />
               </motion.div>
 
               <motion.div
@@ -230,10 +239,15 @@ export function HeroSection() {
           <div className="mt-4 bg-[#e0e5ec] border border-white/80 shadow-[4px_4px_10px_#b8c1ec,-4px_-4px_10px_#ffffff] px-4 py-2 rounded-xl flex items-center justify-center gap-2.5 z-20 backdrop-blur-sm max-w-full text-center">
             <span className="w-2.5 h-2.5 rounded-full bg-[#2f855a] animate-pulse shrink-0" />
             <span className="text-xs text-foreground font-mono font-medium leading-relaxed">
-              dev.status: ready · Java 8+ / 17 / 21 + Spring + Quarkus + Kotlin + Flutter
+              dev.status: ready · Java 21 + Spring + Quarkus + Kotlin + Go + QA Automation
             </span>
           </div>
         </motion.div>
+      </div>
+
+      {/* Interactive Tech Stack Animation & Live QA Pipeline Canvas */}
+      <div className="container mx-auto px-4 z-20 mt-8">
+        <TechStackAnimation />
       </div>
 
       <ResumeExporter ref={resumeRef} />

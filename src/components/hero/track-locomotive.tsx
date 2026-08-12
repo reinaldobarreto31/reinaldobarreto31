@@ -1,3 +1,8 @@
+import { TechStackAnimation } from "./tech-stack-animation";
+
 export function TrackLocomotive() {
-  return <></>;
+  return <TechStackAnimation />;
 }
+
+export { TechStackAnimation };
+
