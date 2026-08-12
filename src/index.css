@@ -72,11 +72,11 @@
 }
 
 .profile-frame {
-  background: #e0e5ec; border: 4px solid #e0e5ec; box-shadow: 12px 12px 24px #b8c1ec, -12px -12px 24px #ffffff, 0 0 24px rgba(47,133,90,.25); cursor: pointer; animation: profile-tilt-intense 7s ease-in-out infinite;
+  background: #e0e5ec; border: 4px solid #ffffff; box-shadow: 12px 12px 24px #b8c1ec, -12px -12px 24px #ffffff, 0 0 24px rgba(0,115,150,.25); cursor: pointer; transition: transform .3s ease, box-shadow .3s ease;
 }
-.profile-photo { filter: grayscale(1) saturate(.35) brightness(.9); transition: filter .55s ease, transform .55s ease; }
-.profile-frame:hover .profile-photo, .profile-frame:focus-visible .profile-photo { filter: grayscale(0) saturate(1.08) contrast(1.05) brightness(1.01); transform: scale(1.02); }
-@media (hover: none) { .profile-photo { filter: grayscale(.3) saturate(.92) brightness(.96); } }
+.profile-photo { filter: grayscale(0) saturate(1.05) brightness(1.02); transition: filter .3s ease, transform .3s ease; }
+.profile-frame:hover .profile-photo, .profile-frame:focus-visible .profile-photo { filter: grayscale(0) saturate(1.12) contrast(1.05) brightness(1.03); transform: scale(1.03); }
+@media (hover: none) { .profile-photo { filter: grayscale(0) saturate(1.05) brightness(1.02); } }
 
 .tech-float-badge {
   display: grid; place-items: center; width: 3.8rem; height: 3.8rem; border-radius: 1rem; background: #e0e5ec; border: 1px solid rgba(255,255,255,.9); box-shadow: 6px 6px 14px #b8c1ec, -6px -6px 14px #ffffff; transform-style: preserve-3d;

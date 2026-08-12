@@ -43,7 +43,7 @@ export function Navbar() {
           </div>
           <div className="flex flex-col leading-none">
             <span className="font-bold text-sm tracking-tight text-foreground">Reinaldo Barreto</span>
-            <span className="text-[10px] text-primary font-mono tracking-wider uppercase">Java · Spring · Kotlin · Flutter</span>
+            <span className="text-[10px] text-primary font-mono tracking-wider uppercase">Java · Spring · Kotlin · Go</span>
           </div>
         </a>
 

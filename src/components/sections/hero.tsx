@@ -180,6 +180,9 @@ export function HeroSection() {
                 alt="Reinaldo Barreto"
                 className="profile-photo w-full h-full object-cover object-center"
                 data-testid="img-hero-profile"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = "/foto-reinaldo.png";
+                }}
               />
             </div>
 
