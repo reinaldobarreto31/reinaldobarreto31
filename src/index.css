@@ -32,8 +32,12 @@
   * { @apply border-border; }
   html { scroll-behavior: smooth; }
   body { @apply font-sans antialiased bg-background text-foreground; background-image: radial-gradient(circle at 1px 1px, rgba(160,175,200,.25) 1px, transparent 0); background-size: 28px 28px; }
-  h1, h2, h3, h4 { letter-spacing: -.035em; color: hsl(220 30% 16%); }
+  h1, h2, h3, h4 { letter-spacing: -.035em; color: hsl(var(--foreground)); }
   .font-mono, code { font-family: var(--app-font-mono); }
+}
+
+.dark body {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.08) 1px, transparent 0);
 }
 
 .dark h1, .dark h2, .dark h3, .dark h4 { color: hsl(var(--foreground)); }
@@ -42,10 +46,47 @@
 .dark .rails-badge, .dark .rails-panel, .dark .rails-project-card, .dark .rails-experience-card, .dark .rails-mini-card,
 .dark .neo-pill, .dark .rails-pill, .dark .neo-stack-card, .dark .rails-stack-card, .dark .neo-icon, .dark .rails-icon,
 .dark .neo-tool-card, .dark .rails-tool-card, .dark .tech-float-badge, .dark .profile-frame,
-.dark .rails-flip-face, .dark .neo-flip-face {
-  background: hsl(var(--card));
-  border-color: hsl(var(--border));
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+.dark .rails-flip-face, .dark .neo-flip-face, .dark .rails-flip-back, .dark .neo-flip-back {
+  background: hsl(var(--card)) !important;
+  border-color: hsl(var(--border)) !important;
+  color: hsl(var(--foreground)) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+}
+
+.dark .tech-tag {
+  background: hsl(var(--muted)) !important;
+  color: hsl(var(--foreground)) !important;
+  border-color: hsl(var(--border)) !important;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .neo-project-head, .dark .rails-project-head {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)) !important;
+  border-bottom-color: hsl(var(--border)) !important;
+}
+
+.dark .footer-social {
+  background: hsl(var(--card)) !important;
+  border-color: hsl(var(--border)) !important;
+  color: hsl(var(--foreground)) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+.dark .footer-social:hover {
+  background: hsl(var(--primary)) !important;
+  color: #ffffff !important;
+}
+
+.dark .neo-button, .dark .rails-button {
+  box-shadow: 0 6px 20px rgba(47, 133, 90, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+.dark .neo-shine, .dark .rails-shine {
+  background: linear-gradient(100deg, #50fa7b, #6db33f, #38bdf8, #6db33f, #50fa7b);
+  background-size: 300% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .dark .hero-aura {
@@ -179,4 +220,5 @@
 .rails-flip-card.tech-flutter .rails-flip-front, .neo-flip-card.tech-flutter .neo-flip-front { box-shadow: inset 3px 0 #0284c7, 8px 8px 20px #b8c1ec, -8px -8px 20px #ffffff; }
 .rails-flip-card.is-flipped .rails-flip-front, .rails-flip-card.is-flipped .rails-flip-back,
 .neo-flip-card.is-flipped .neo-flip-front, .neo-flip-card.is-flipped .neo-flip-back { box-shadow: inset 3px 0 var(--tech-color, #2f855a), inset 3px 3px 8px #b8c1ec, inset -3px -3px 8px #ffffff; }
+
 

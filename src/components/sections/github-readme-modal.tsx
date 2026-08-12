@@ -8,9 +8,13 @@ type Props = {
   onClose: () => void;
 };
 
-export const GITHUB_PROFILE_README_MARKDOWN = `# 👋 Olá! Eu sou Reinaldo Barreto
+export const GITHUB_PROFILE_README_MARKDOWN = `<p align="center">
+  <img src="https://raw.githubusercontent.com/reinaldobarreto31/reinaldobarreto31/main/foto-reinaldo.png" width="160" height="160" style="border-radius: 50%; border: 4px solid #6db33f; box-shadow: 0 8px 24px rgba(0,0,0,0.3);" alt="Reinaldo Barreto" />
+</p>
 
-### 🚀 Desenvolvedor Java / Backend Software Engineer
+# 👋 Olá! Eu sou Reinaldo Barreto da Silva
+
+### 🚀 Engenheiro de Software Backend & Full-Stack (Java 21/17/8, Spring Boot 3, Quarkus, Kotlin & Go)
 
 > *"A pausa foi criada para que o coletor de lixo (Garbage Collector) trabalhe sem distrações — mas do Java 8 ao Java 21 com ZGC e Threads Virtuais, a alta performance nunca para."*
 
