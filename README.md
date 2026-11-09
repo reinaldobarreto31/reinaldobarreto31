@@ -31,13 +31,27 @@ data class Developer(
     ),
     val complementarySkills: List<String> = listOf(
         "Flutter (intermediário)", "React Native (básico)",
-        "Swift/iOS em aprendizado (ainda sem Mac/Xcode)", "PHP (noções)"
+        "Swift/iOS em aprendizado (ainda sem Mac/Xcode)"
     )
 ) {
     val currentFocus: String
         get() = "Android nativo com Kotlin, integrado a backends Java/Spring e Node.js."
 }
 ```
+
+Desenvolvedor Mobile com foco em Android nativo usando Kotlin, Jetpack Compose e KMP. Também construo APIs e integrações com Java/Spring Boot e Node.js/TypeScript. Tenho experiência em sistemas de missão crítica e suporte a usuários corporativos. Atualmente, desenvolvo o Limpapp, marketplace Android para conectar clientes a diaristas.
+
+📍 Navegantes, Santa Catarina · [LinkedIn](https://linkedin.com/in/reinaldo-barreto-2a4ba2116) · [Portfólio](https://reinaldobarreto31.github.io/)
+
+## 📱 Projeto Android Principal — Limpapp
+
+<div align="center">
+  <a href="https://reinaldobarreto31.github.io/#projects">
+    <img src="https://reinaldobarreto31.github.io/mockups/mockup-limpapp.svg" alt="Mockup do Limpapp para Android" width="220">
+  </a>
+  <p><strong>Marketplace Android em desenvolvimento</strong><br>
+  Conceito para conectar clientes a diaristas e profissionais de limpeza. As imagens são mockups; o app ainda não foi publicado e suas funcionalidades estão em construção.</p>
+</div>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -71,7 +85,7 @@ data class Developer(
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/reinaldobarreto31)
 [![Express / NestJS](https://img.shields.io/badge/Express_%2F_NestJS-222222?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://github.com/reinaldobarreto31)
 
-**Tecnologias complementares:** Flutter (intermediário) · React Native (básico) · iOS/Swift (em aprendizado; ainda sem Mac para executar o Xcode) · PHP (noções).
+**Tecnologias complementares:** Flutter (intermediário) · React Native (básico) · iOS/Swift (em aprendizado; ainda sem Mac para executar o Xcode).
 **Engenharia:** APIs REST · Docker · GitHub Actions · Linux · Clean Architecture · testes automatizados.
 
 </div>
@@ -92,7 +106,7 @@ data class Developer(
 | Projeto | Stack | Descrição |
 |---|---|---|
 | **[Limpapp — Marketplace Android](https://reinaldobarreto31.github.io/#projects)** | Kotlin · Android · Jetpack Compose · KMP | Projeto principal em desenvolvimento para conectar clientes a diaristas. As telas atuais são mockups e o app ainda não foi publicado. |
-| **[App de tarefas Android](https://github.com/reinaldobarreto31?tab=repositories&q=android)** | Kotlin · Android SDK · Jetpack Compose · MVVM · Room | Projeto Android nativo com lista de tarefas, filtros e persistência local. |
+| **[App de tarefas Android](https://github.com/reinaldobarreto31/kotlin-tasks-android)** | Kotlin · Android SDK · Jetpack Compose · MVVM · Room | Projeto Android nativo com lista de tarefas, filtros e persistência local. |
 | **[Projetos Android no portfólio](https://reinaldobarreto31.github.io/#projects)** | Kotlin · Compose · Room · WorkManager | Telas reais e conceitos de apps Android. Conceitos identificados como protótipos/em desenvolvimento e ainda não publicados em lojas. |
 | **Backend profissional** | Java · Spring Boot · PostgreSQL · APIs REST | Experiência em sistemas corporativos e serviços públicos; consulte o currículo e a experiência no portfólio. |
 
